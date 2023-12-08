@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "CSIRO COTS Detection"
 PROJECT_NAME_FULL: str = "CSIRO COTS: The CSIRO Crown-of-Thorn Starfish Detection Dataset (a.k.a. TensorFlow - Help Protect the Great Barrier Reef Competition)"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -37,7 +37,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://www.kaggle.com/competitions/tensorflow-great-barrier-reef"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 9480143
+PREVIEW_IMAGE_ID: int = 9492717
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/cots-detection"
